@@ -1,3 +1,4 @@
+// Avg and total credit balance for polish women depending on the currency
 printjson(db.people.aggregate(
 [	{ $match : {
 		"$and":[

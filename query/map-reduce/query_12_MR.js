@@ -1,3 +1,4 @@
+//The total credit balance for people depending on the currency. 
 
 var mapFunction = function() {
 	for (var idx = 0; idx < this.credit.length; idx++) {

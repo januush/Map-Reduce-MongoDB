@@ -1,4 +1,5 @@
-// To polecenie znajduje zawody, które występują tylko raz w bazie.
+// Unique professions
+
 /*printjson(db.people.aggregate(
 [
 	{$group: {_id: "$job", count: {$sum: 1 } }},
@@ -6,5 +7,4 @@
 ]).toArray()
 )*/
 
-// To polecenie wypisuje listę wszystkich zawodów bez powtórzeń.
 printjson(db.people.distinct("job"))

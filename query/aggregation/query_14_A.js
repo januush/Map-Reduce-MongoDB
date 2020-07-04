@@ -1,3 +1,4 @@
+// Min, Max and Avg BMI depending on the nationality
 printjson(db.people.aggregate([
    {$group:
    {

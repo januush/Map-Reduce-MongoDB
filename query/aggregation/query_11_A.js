@@ -1,3 +1,4 @@
+// People's avarage weight and height depending on the sex. 
 printjson(db.people.aggregate([
    {$group:
    {

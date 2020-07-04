@@ -1,3 +1,4 @@
+//The total credit balance for people depending on the currency. 
 printjson(db.people.aggregate(
 [
 	{ "$unwind": "$credit" },

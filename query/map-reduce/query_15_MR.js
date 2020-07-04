@@ -1,4 +1,4 @@
-
+// Avg and total credit balance for polish women depending on the currency
  //   emit({sex: this.sex, nationality: this.nationality}, {count: 1});
 
 var mapFunction = function() {

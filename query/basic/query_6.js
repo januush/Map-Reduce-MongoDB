@@ -1,3 +1,4 @@
+// Add myself to database
 printjson( db.people.insertOne({
 		"sex" : "Male",
 		"first_name" : "Bartlomiej",

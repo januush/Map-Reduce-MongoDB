@@ -1,3 +1,4 @@
+// Unique professions
 var mapFunction = function() {
     var key = this.job;
     var value = { count: 1};

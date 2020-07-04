@@ -1,3 +1,4 @@
+// Min, Max and Avg BMI depending on the nationality
 var mapFunction = function() {
     var key = this.nationality;
     var value = { count: 1, total_bmi: Number(10000 * this.weight/this.height/this.height), avg_bmi: 0, max_bmi: Number(10000 * this.weight/this.height/this.height), min_bmi: Number(10000 * this.weight/this.height/this.height) };

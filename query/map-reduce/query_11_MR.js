@@ -1,4 +1,4 @@
-
+// People's avarage weight and height depending on the sex. 
 var mapFunction = function() {
     var key = this.sex;
     var value = { total_height: parseFloat(this.height), total_weight: parseFloat(this.weight), count: 1, avg_height: 0, avg_weight: 0 };
